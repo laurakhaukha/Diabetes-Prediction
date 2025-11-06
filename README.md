@@ -13,3 +13,15 @@ This analysis builds a predictive model for diabetes using clinical and biologic
 - Body Mass Index (BMI)
 - Diabetes Genetic Score (DGS)
 - Age
+
+# Workflow 🔨
+- Exploratory Data Analysis and Summary Statistics
+- Outlier Detection and Removal using Cook’s Distance
+- Multicollinearity Check (Correlation Matrix + VIF)
+- Non-linearity Checks via LOESS Plots
+- Variable Transformation & Categorisation
+- Logistic Regression Model Training (70/30 split)
+- Model Evaluation:
+  ROC Curve
+  Sensitivity / Specificity
+  AUC Score
