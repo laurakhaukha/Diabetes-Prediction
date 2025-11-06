@@ -52,8 +52,8 @@ library(boot)
 #   1   # Data Preperation 
 # -----------------------------------------------------------------------------#
 #Setting Working Directory to location of assignment & Loading Data for 
-setwd("~/Desktop/Assignment-2024/") # Working Directory remained throughout Part B
-d_part_A <- read_dta('exam_data_2024A.dta') 
+setwd("~/Desktop/") # Working Directory remained throughout Part B
+d_part_A <- read_dta('#') 
 
 #Converting each variables to numeric values for consistency throughout analyis
 d_part_A <- d_part_A %>% mutate(across(c(pregnancies, glucose, insulin, skin_thickness, blood_pressure, bmi, diabetes_genetic_score, age),as.numeric))
